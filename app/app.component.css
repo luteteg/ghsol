@@ -1,0 +1,105 @@
+.firstdiv{
+    background-image: url("../assets/img/house1.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    
+    
+   
+}
+.contdiv1{
+    margin-top: 120px;
+    margin-bottom: 300px;
+    color: rgba(244, 246, 248, 0.993);
+    
+}
+#midtext{
+    font-weight: 800;
+    font-style: bold; 
+    font-size: 38px; 
+    line-height: 38px; 
+}
+.inputbar{
+    width: 185px;
+  
+}
+.carddiv{
+    padding: 80px;
+}
+.footerset{
+    position: fixed;
+}
+.cardbox{
+    background-color: rgb(255, 255, 0);
+     color: rgba(58, 11, 230, 0.918);
+     
+}
+
+.nav-link:hover{
+  color: rgba(58, 11, 230, 0.918);
+  font-weight: bold;
+  font-size: 50px;
+ border: #fce300; 
+ border-radius: 15px;
+ border-style: solid;
+ background-color: #fff;
+ 
+}
+
+
+
+.aboutus{
+    font-size: 20px;
+    color: rgb(0, 0, 0);
+    font-weight:bold;
+    text-align: center;
+    align-content: center;
+    align-items: center;
+    padding-bottom: 50px;
+    
+    
+
+}
+.aboutusHeader{
+  font-size: 40px;
+  color: rgb(130, 46, 240);
+  font-weight:bold;
+  text-align: center;
+  align-content: center;
+  align-items: center;
+  
+
+}
+.footerMain{ 
+  background-color: #000000;
+
+  bottom: 0;
+  width: 100%;
+ 
+ 
+}
+.footerTitle{
+  font-size: 20px;
+  font-weight: 500;
+  color: rgb(130, 46, 240);
+}
+.footerLinks{
+  color: aliceblue;
+
+  
+}
+
+@media (max-width:800px) {
+  .footerMain  {
+    height:220px;
+  
+    margin-top: auto;
+    font-size: 12px;
+    
+  }
+  .footerTitle .navbar {
+    font-size: 12px;
+    padding-top: 2px;
+  }
+}
