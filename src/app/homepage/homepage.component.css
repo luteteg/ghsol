@@ -4,16 +4,12 @@
     background-position: center;
     background-repeat: no-repeat;
     background-attachment: fixed;
-    
-    
    
 }
 .contdiv2{
     margin-top: 120px;
     margin-bottom: 300px;
     color: rgba(244, 246, 248, 0.993);
-  
-    
 }
 
 .contdiv1{
@@ -32,7 +28,6 @@
 }
 .inputbar{
     width: 185px;
-  
 }
 .carddiv{
     padding: 80px;
@@ -42,8 +37,7 @@
 }
 .cardbox{
     background-color: rgb(255, 255, 0);
-     color: rgba(58, 11, 230, 0.918);
-     
+     color: rgba(58, 11, 230, 0.918);  
 }
 
 .nav-link:hover{
@@ -57,15 +51,6 @@
  
 }
 
-/* Slide show */
-/* //////// */
-/* .bodyb {
-    margin: 0;
-    background: rgb(196, 102, 102);
-    text-align: center;
-    font-family: sans-serif;
-    color: #fefefe;
-  } */
   .container6 {
     position: relative;
     width: 320px;
@@ -157,9 +142,7 @@
   
 /* end of slide show */
 
-
 /* review slideshow */
-
 .testimonials-clean {
 color:#313437;
 background-color:#eef4f7;
@@ -175,7 +158,6 @@ background-color:#eef4f7;
   padding-top:40px;
   color:inherit;
 }
-
 @media (max-width:767px) {
   .testimonials-clean h2 {
     margin-bottom:25px;
@@ -278,144 +260,3 @@ background-color:#eef4f7;
     padding-bottom: 50px;
 }
 
-/* end of the review slideshow */
-
-
-.aboutus{
-    font-size: 20px;
-    color: rgb(0, 0, 0);
-    font-weight:bold;
-    text-align: center;
-    align-content: center;
-    align-items: center;
-    padding-bottom: 50px;
-    
-    
-
-}
-.aboutusHeader{
-  font-size: 40px;
-  color: rgb(130, 46, 240);
-  font-weight:bold;
-  text-align: center;
-  align-content: center;
-  align-items: center;
-  
-
-}
-.footerMain{ 
-  background-color: #000000;
-}
-.footerTitle{
-  font-size: 20px;
-  font-weight: 500;
-  color: rgb(130, 46, 240);
-}
-.footerLinks{
-  color: aliceblue;
-  
-}
-.spacing{
- padding-bottom: 200px;
-}
-.collap{
-  margin: 0;
-  padding: 0;
-  box-sizing:border-box;
-
-}
-.c{
-  position: relative;
-  margin:2em;
-
-}
-input{
-  position: absolute;
-  left: 0;
-  top: 0;
-  height: 100%;
-  width: 100%;
-  opacity:0;
-  visibility: 0;
-}
-.pspacing{
-
-}
-
-.collapsible {
-  background-color: #777;
-  color: white;
-  cursor: pointer;
-  padding: 18px;
-  width: 100%;
-  border: none;
-  text-align: left;
-  outline: none;
-  font-size: 15px;
-}
-
-.active, .collapsible:hover {
-  background-color: #555;
-}
-
-.contentz {
-  padding: 0 18px;
-  display: none;
-  overflow: hidden;
-  background-color: #f1f1f1;
-}
-.collapBtn{
-  width: 300px;
-  height: 60px;
-  background-color: rgb(255, 255, 0);
- border: none;
- color: blue;
- font-size: 30px;
- font-weight: 900;
-
-}
-
-.collapBtn:hover{
-  
-  font-size: 60px;
-
- 
-}
-
-
-
-@media screen and (max-width:1301px) {
-  .collapBtn{
-    width: 100px;
-    
-  }
-  .collapBtn:hover{
-  
-    font-size: 35px;
-  
-   
-  }
-}
-
-@media screen and (max-width:990px) {
-  .author{
-    width: 120px;
-  }
-  .contdiv2{
-    padding-left: 120px;
-    font-size: 12px;
-  }
-  .testcont{
-  
-    padding-bottom: 120px;
-}
-
-
-  /* .box{} */
-  
-}
-
-.box:hover {
-  transform: translateX(-20px);
- 
-}
